@@ -16,6 +16,7 @@
 		91045E7127B34FC2001A10F3 /* AVFounationPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91045E7027B34FC2001A10F3 /* AVFounationPracticeTests.swift */; };
 		91045E7B27B34FC2001A10F3 /* AVFounationPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91045E7A27B34FC2001A10F3 /* AVFounationPracticeUITests.swift */; };
 		91045E7D27B34FC2001A10F3 /* AVFounationPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91045E7C27B34FC2001A10F3 /* AVFounationPracticeUITestsLaunchTests.swift */; };
+		91045E8A27B3561C001A10F3 /* DeviceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91045E8927B3561C001A10F3 /* DeviceInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		91045E7627B34FC2001A10F3 /* AVFounationPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFounationPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91045E7A27B34FC2001A10F3 /* AVFounationPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFounationPracticeUITests.swift; sourceTree = "<group>"; };
 		91045E7C27B34FC2001A10F3 /* AVFounationPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFounationPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91045E8927B3561C001A10F3 /* DeviceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				91045E5927B34FC0001A10F3 /* AppDelegate.swift */,
 				91045E5B27B34FC0001A10F3 /* SceneDelegate.swift */,
 				91045E5D27B34FC0001A10F3 /* ViewController.swift */,
+				91045E8927B3561C001A10F3 /* DeviceInput.swift */,
 				91045E5F27B34FC0001A10F3 /* Main.storyboard */,
 				91045E6227B34FC1001A10F3 /* Assets.xcassets */,
 				91045E6427B34FC1001A10F3 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91045E5E27B34FC0001A10F3 /* ViewController.swift in Sources */,
+				91045E8A27B3561C001A10F3 /* DeviceInput.swift in Sources */,
 				91045E5A27B34FC0001A10F3 /* AppDelegate.swift in Sources */,
 				91045E5C27B34FC0001A10F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,9 +443,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RU2KWJM554;
+				DEVELOPMENT_TEAM = TJJZX2BJZP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AVFounationPractice/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "agree use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -467,9 +472,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RU2KWJM554;
+				DEVELOPMENT_TEAM = TJJZX2BJZP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AVFounationPractice/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "agree use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
